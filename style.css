@@ -8,6 +8,7 @@
     --pink-color: #dbc5d3;
     --bg-color: #e7e7dd;
     --grey-color: #bababa;
+    --blue-color: #bac3f0;
 }
 
 .nothing-you-could-do-regular {
@@ -16,11 +17,33 @@
     font-style: normal;
   }
 
+.h2-text {
+    font-size: 2rem;
+}
+
 .separation-line {
     border: solid;
     border-width: 0.1rem;
     border-color: var(--grey-color);
 } 
+
+.list {
+    display: flex;
+    flex-direction: column;
+
+    & .list-item {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        gap: 0.5rem;
+        font-size: 1.2rem;
+        text-transform: lowercase;
+    }
+}
+
+body {
+    background-color: var(--bg-color);
+}
 
 header {
    display: flex;
@@ -35,5 +58,213 @@ header {
    & .menu {
     height: 3rem;
     width: 3rem;
+    padding: 0.3rem;
+    background-color: var(--pink-color);
    }
+}
+
+.hero {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    & .hero-text {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    & .sparrow-container {
+        display: flex;
+        justify-content: center;
+
+        & .sparrow-img {
+            min-width: 0;
+            max-width: 100%;
+        }
+    }
+}
+
+.about {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    & .about-link {
+        text-decoration: none;
+        color: black;
+        border: solid;
+        border-width: 0.1rem;
+        padding: 0.5rem;
+    }
+
+    & .list {
+        display: flex;
+        flex-direction: column;
+
+        & .list-item {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            gap: 0.5rem;
+            font-size: 1.2rem;
+            text-transform: lowercase;
+        }
+    }
+
+    & .stats {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        & .grey-text {
+            font-size: 3rem;
+            color: var(--grey-color);
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+.works {
+    padding: 1rem;
+
+    & .h2-text {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    & .work-item {
+        text-decoration: none;
+
+        & .work-img-container {
+            border: solid black;
+
+            & .work-img {
+                min-width: 0;
+                max-width: 100%;
+            }
+        } 
+        
+        & .work-text {
+            color: black;
+            display: flex;
+            flex-direction: column;
+            padding-top: 1rem;
+
+            & .work-type {
+                background-color: white;
+                border: solid white 0.1rem;
+                width: fit-content;
+                padding: 0.5rem;
+            }
+
+            & .work-description {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    & .all-works-link {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+
+        & .all-works-container {
+            position: relative;
+
+            & .all-works-img:hover {
+                transform: rotate(0.1turn);
+                transition: 0.7s ease-in-out;
+            }
+
+            & .all-works-text {
+                position: absolute;
+                top: 5.5rem;
+                left: 3rem;
+            }
+        }
+    }
+}
+
+.services {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    & .decoration {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.blog-section {
+    padding: 1rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    & .blog-link {
+        text-decoration: none;
+        color: black;
+    }
+
+    & .blog-type {
+        background-color: var(--blue-color);
+        width: fit-content;
+
+        & .blog-type-text {
+            padding: 0.5rem;
+        }
+    }
+
+    & .blog-img-container {
+        border: solid black;
+
+        & .blog-img {
+            min-width: 0;
+            max-width: 100%;
+        }
+    }
+}
+
+footer {
+    padding: 1rem;
+
+    & .footer-logo {
+        display: flex;
+        height: 2.5rem;
+    }
+
+    & .footer-sparrow {
+        display: flex;
+        justify-content: center;
+
+        & .footer-sparrow-img {
+            min-width: 0;
+            max-width: 100%;
+        }
+    }
+
+    & .footer-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    & .footer-slogan {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
 }
