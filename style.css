@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --pink-color: #dbc5d3;
+    --bg-color: #e7e7dd;
+    --grey-color: #bababa;
+}
+
+.nothing-you-could-do-regular {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.separation-line {
+    border: solid;
+    border-width: 0.1rem;
+    border-color: var(--grey-color);
+} 
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 1rem;
+
+   & .logo-img {
+    height: 1.5rem;
+   }
+
+   & .menu {
+    height: 3rem;
+    width: 3rem;
+   }
+}
