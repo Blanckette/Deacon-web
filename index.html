@@ -15,21 +15,32 @@
         <a href="index.html" class="logo-container">
             <img class="logo-img" src="assets/6597d9031d93d98039c11743_deacon.svg" alt="logo">
         </a>
-        <nav class="menu" type="button" data-bs-toggle="dropdown">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
-            </svg>
-        </nav>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Home</a></li>
-            <li><a class="dropdown-item" href="#">About</a></li>
-            <li><a class="dropdown-item" href="#">Contact</a></li>
-        </ul>
+        <div class="header-container-right">
+            <div class="social-icons">
+                <a href=""><img src="assets/facebook.svg" alt=""></a>
+                <a href=""><img src="assets/instagram.svg" alt=""></a>
+                <a href=""><img src="assets/pinterest.svg" alt=""></a>
+            </div>
+            <p class="header-contact-btn">
+                contact us
+            </p>
+            <nav class="menu" type="button" data-bs-toggle="dropdown">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                </svg>
+            </nav>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Home</a></li>
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+            </ul>
+        </div>
     </header>
     <section class="hero">
         <div class="hero-text">
-            <div>
+            <div class="hero-text-first-line">
                 <h1 class="nothing-you-could-do-regular hero-text">designing dreams</h1>
+                <img class="hero-decoration" src="assets/hero_decoration-01.svg" alt="">
             </div>
             <div class="hero-text-container">
                 <h1 class="nothing-you-could-do-regular hero-text">building</h1>
@@ -43,57 +54,59 @@
         </div>
     </section>
     <section class="about">
-        <div>
-            <h2 class="nothing-you-could-do-regular h2-text">where design stories begin</h2>
-            <p>a passionate designer dedicated to crafting visually immersive experiences. Design, for me, is not just a profession but a canvas where innovation meets inspiration.</p>
-            <div class="about-more">
-                <a class="about-link" href="">more about us</a>
-                <div class="about-img-container">
-                    <img class="about-link-img" src="assets/look.png" alt="">
+        <h2 class="nothing-you-could-do-regular h2-text">where design stories begin</h2>
+        <div class="about-container">
+            <div>
+                <p>a passionate designer dedicated to crafting visually immersive experiences. Design, for me, is not just a profession but a canvas where innovation meets inspiration.</p>
+                <div class="about-more">
+                    <a class="about-link" href="">more about us</a>
+                    <div class="about-img-container">
+                        <img class="about-link-img" src="assets/look.png" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div>
-            <h2 class="nothing-you-could-do-regular h2-text">design principles</h2>
-            <div class="list">
-                <div class="list-item">
-                    <div>
-                        <img src="assets/_list-icon.svg" alt="">
+            <div>
+                <h2 class="nothing-you-could-do-regular h2-text">design principles</h2>
+                <div class="list">
+                    <div class="list-item">
+                        <div>
+                            <img src="assets/_list-icon.svg" alt="">
+                        </div>
+                        <div>
+                            <p>Functionality First</p>
+                        </div>
                     </div>
-                    <div>
-                        <p>Functionality First</p>
+                    <div class="list-item">
+                        <div>
+                            <img src="assets/_list-icon.svg" alt="">
+                        </div>
+                        <div>
+                            <p>User-centric approach</p>
+                        </div>
                     </div>
-                </div>
-                <div class="list-item">
-                    <div>
-                        <img src="assets/_list-icon.svg" alt="">
+                    <div class="list-item">
+                        <div>
+                            <img src="assets/_list-icon.svg" alt="">
+                        </div>
+                        <div>
+                            <p>Purpose-driven design</p>
+                        </div>
                     </div>
-                    <div>
-                        <p>User-centric approach</p>
+                    <div class="list-item">
+                        <div>
+                            <img src="assets/_list-icon.svg" alt="">
+                        </div>
+                        <div>
+                            <p>Adaptability</p>
+                        </div>
                     </div>
-                </div>
-                <div class="list-item">
-                    <div>
-                        <img src="assets/_list-icon.svg" alt="">
-                    </div>
-                    <div>
-                        <p>Purpose-driven design</p>
-                    </div>
-                </div>
-                <div class="list-item">
-                    <div>
-                        <img src="assets/_list-icon.svg" alt="">
-                    </div>
-                    <div>
-                        <p>Adaptability</p>
-                    </div>
-                </div>
-                <div class="list-item">
-                    <div>
-                        <img src="assets/_list-icon.svg" alt="">
-                    </div>
-                    <div>
-                        <p>Ethical design practices</p>
+                    <div class="list-item">
+                        <div>
+                            <img src="assets/_list-icon.svg" alt="">
+                        </div>
+                        <div>
+                            <p>Ethical design practices</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -120,42 +133,44 @@
     </section>
     <section class="works">
         <h2 class="nothing-you-could-do-regular h2-text">our works</h2>
-        <a class="work-item" href="">
-            <div class="work-img-container">
-                <img class="work-img" src="assets/work-01.jpg" alt="">
-            </div>
-            <div class="work-text">
-                <p class="work-type">graphic design</p>
-                <p class="nothing-you-could-do-regular work-description">an Illustrative journey</p>
-            </div>
-        </a>
-        <a class="work-item" href="">
-            <div class="work-img-container">
-                <img class="work-img" src="assets/work-02.jpg" alt="">
-            </div>
-            <div class="work-text">
-                <p class="work-type">branding</p>
-                <p class="nothing-you-could-do-regular work-description">brand identity development</p>
-            </div>
-        </a>
-        <a class="work-item" href="">
-            <div class="work-img-container">
-                <img class="work-img" src="assets/_work-03.jpg" alt="">
-            </div>
-            <div class="work-text">
-                <p class="work-type">Content creation</p>
-                <p class="nothing-you-could-do-regular work-description">Content strategy development</p>
-            </div>
-        </a>
-        <a class="work-item" href="">
-            <div class="work-img-container">
-                <img class="work-img" src="assets/6598f3ef81996ccb1f330f63_work-04.jpg" alt="">
-            </div>
-            <div class="work-text">
-                <p class="work-type">Branding</p>
-                <p class="nothing-you-could-do-regular work-description">marketing collateral design</p>
-            </div>
-        </a>
+        <div class="work-item-wrapper">
+            <a class="work-item" href="">
+                <div class="work-img-container">
+                    <img class="work-img" src="assets/work-01.jpg" alt="">
+                </div>
+                <div class="work-text">
+                    <p class="work-type">graphic design</p>
+                    <p class="nothing-you-could-do-regular work-description">an Illustrative journey</p>
+                </div>
+            </a>
+            <a class="work-item" href="">
+                <div class="work-img-container">
+                    <img class="work-img" src="assets/work-02.jpg" alt="">
+                </div>
+                <div class="work-text">
+                    <p class="work-type">branding</p>
+                    <p class="nothing-you-could-do-regular work-description">brand identity development</p>
+                </div>
+            </a>
+            <a class="work-item" href="">
+                <div class="work-img-container">
+                    <img class="work-img" src="assets/_work-03.jpg" alt="">
+                </div>
+                <div class="work-text">
+                    <p class="work-type">Content creation</p>
+                    <p class="nothing-you-could-do-regular work-description">Content strategy development</p>
+                </div>
+            </a>
+            <a class="work-item" href="">
+                <div class="work-img-container">
+                    <img class="work-img" src="assets/6598f3ef81996ccb1f330f63_work-04.jpg" alt="">
+                </div>
+                <div class="work-text">
+                    <p class="work-type">Branding</p>
+                    <p class="nothing-you-could-do-regular work-description">marketing collateral design</p>
+                </div>
+            </a>
+        </div>
         <a class="all-works-link" href="">
             <div class="all-works-container">
                 <img class="all-works-img" src="assets/_decoration-04.svg" alt="">
@@ -166,63 +181,72 @@
     <section class="services">
         <div>
             <h2 class="nothing-you-could-do-regular h2-text">crafting visual stories that define brands and elevate experiences</h2>
+        </div>
+        <div class="services-text-wrapper">
             <p>We breathe life into brands through the artistry of graphic design. Our passion lies in transforming visions into compelling visual narratives, shaping identities that resonate and captivate.</p>
-        </div>
-        <div>
-            <p class="nothing-you-could-do-regular h2-text">graphics design</p>
-            <div class="list">
-                <div class="list-item">
-                    <div>
-                        <img src="assets/_list-icon-green.svg" alt="">
-                    </div>
-                    <div>
-                        <p>Logo design</p>
-                    </div>
-                </div>
-                <div class="list-item">
-                    <div>
-                        <img src="assets/_list-icon-green.svg" alt="">
-                    </div>
-                    <div>
-                        <p>Branding</p>
-                    </div>
-                </div>
-                <div class="list-item">
-                    <div>
-                        <img src="assets/_list-icon-green.svg" alt="">
-                    </div>
-                    <div>
-                        <p>Print design</p>
-                    </div>
-                </div>
-                <div class="list-item">
-                    <div>
-                        <img src="assets/_list-icon-green.svg" alt="">
-                    </div>
-                    <div>
-                        <p>Packaging design</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div>
-            <p class="nothing-you-could-do-regular h2-text">web design</p>
-            <div class="list">
-                <div class="list-item">
-                    <div>
-                        <img src="assets/_list-icon-green.svg" alt="">
-                    </div>
-                    <div>
-                        <p>UI/UX design</p>
+            <div class="services-points-wrapper">
+                <div>
+                    <p class="nothing-you-could-do-regular h2-text">graphics design</p>
+                    <div class="list">
+                        <div class="list-item">
+                            <div>
+                                <img src="assets/_list-icon-green.svg" alt="">
+                            </div>
+                            <div>
+                                <p>Logo design</p>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div>
+                                <img src="assets/_list-icon-green.svg" alt="">
+                            </div>
+                            <div>
+                                <p>Branding</p>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div>
+                                <img src="assets/_list-icon-green.svg" alt="">
+                            </div>
+                            <div>
+                                <p>Print design</p>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div>
+                                <img src="assets/_list-icon-green.svg" alt="">
+                            </div>
+                            <div>
+                                <p>Packaging design</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="list-item">
-                    <div>
-                        <img src="assets/_list-icon-green.svg" alt="">
+                <div class="separation-line"></div>
+                <div>
+                    <p class="nothing-you-could-do-regular h2-text">web design</p>
+                    <div class="list">
+                        <div class="list-item">
+                            <div>
+                                <img src="assets/_list-icon-green.svg" alt="">
+                            </div>
+                            <div>
+                                <p>UI/UX design</p>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div>
+                                <img src="assets/_list-icon-green.svg" alt="">
+                            </div>
+                            <div>
+                                <p>web development</p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <p>web development</p>
-                    </div>
+                </div>
+                <div class="decoration">
+                    <img class="plant-decoration" src="assets/_decoration-27.svg" alt="">
+                    <img class="vase-decoration" src="assets/decoration-28.svg" alt="">
                 </div>
             </div>
         </div>
@@ -268,29 +292,31 @@
         <div class="footer-sparrow">
             <img class="footer-sparrow-img" src="assets/6597e26ed686628d97b246d3_sparrow.svg" alt="">
         </div>
-        <div>
-            <p class="nothing-you-could-do-regular h2-text">pages</p>
-            <ul class="footer-list">
-                <li>Home</li>
-                <li>about</li>
-                <li>service</li>
-                <li>work</li>
-                <li>career</li>
-                <li>blog</li>
-                <li>contact</li>
-            </ul>
-        </div>
-        <div>
-            <p class="nothing-you-could-do-regular h2-text">utility pages</p>
-            <ul class="footer-list">
-                <li>Style guide</li>
-                <li>instructions</li>
-                <li>licence</li>
-                <li>logs</li>
-                <li>commimg soon</li>
-                <li>bio</li>
-                <li>error 404</li>
-            </ul>
+        <div class="footer-list-container">
+            <div>
+                <p class="nothing-you-could-do-regular h2-text">pages</p>
+                <ul class="footer-list">
+                    <li>Home</li>
+                    <li>about</li>
+                    <li>service</li>
+                    <li>work</li>
+                    <li>career</li>
+                    <li>blog</li>
+                    <li>contact</li>
+                </ul>
+            </div>
+            <div>
+                <p class="nothing-you-could-do-regular h2-text">utility pages</p>
+                <ul class="footer-list">
+                    <li>Style guide</li>
+                    <li>instructions</li>
+                    <li>licence</li>
+                    <li>logs</li>
+                    <li>commimg soon</li>
+                    <li>bio</li>
+                    <li>error 404</li>
+                </ul>
+            </div>
         </div>
         <div class="footer-slogan">
             <p>what does the future
